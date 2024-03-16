@@ -1,0 +1,32 @@
+@import "abstract/colors";
+
+@import "components/text";
+@import "components/rows";
+@import "components/form";
+
+@import "layout/navbar";
+@import "layout/comment";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    width: 1200px;
+    padding-inline: 30px;
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+.section-2 {
+    padding-bottom: 100px;
+}

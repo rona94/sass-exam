@@ -1,0 +1,32 @@
+.comment-header {
+    padding: 0;
+    text-align: center;
+}
+.comments {
+    padding: 15px 0;
+    max-height: 400px;
+    overflow-y: auto;
+
+    .comment {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba($white, 0.5);
+    }
+    .comment__author,
+    .comment__comment {
+        color: $white;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .comment__author {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .comment-header,
+    .comments {
+        padding-inline: 50px;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SASS</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/index.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__header">
+                <img src="./assets/images/logo.png" alt="logo" width="120">
+            </div>
+        </nav>
+
+        <main>
+            <section class="section section-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-12 sm-6">
+                            <div class="text-wrap">
+                                <h1 class="text-red">Lorem ipsum</h1>
+                                <p class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus. Praesent sit amet odio aliquam, tempus turpis ac, auctor velit. Pellentesque molestie scelerisque auctor. Aliquam semper euismod est, non efficitur dolor tempus vel. Etiam libero lorem, tristique aliquet dapibus id, venenatis vel arcu. Cras in turpis eu mi suscipit varius porta et purus. Praesent tellus felis, luctus vel tortor eget, sagittis viverra eros. In venenatis, ligula eget tincidunt laoreet, tellus sapien dapibus quam, vel finibus ex turpis sed massa. Nullam ullamcorper orci fermentum nisl porta, vitae fringilla enim mattis.</p>
+                            </div>
+                        </div>
+                        <div class="col xs-12 sm-6">
+                            <img class="img-responsive" src="./assets/images/placeholder.png" alt="placeholder">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-12 sm-6">
+                            <form class="form" action="" method="POST">
+                                <h2 class="text-red">Add Comment</h2>  
+
+                                <div class="form__control">
+                                    <label for="username" class="form__label">Username</label>
+                                    <input id="username" type="text" name="username" class="form__input" />
+                                </div>
+                                <div class="form__control">
+                                    <label for="comment" class="form__label">Comment</label>
+                                    <textarea id="comment" name="comment" class="form__input">
+                                    </textarea>
+                                </div>
+                                <div class="form__control">
+                                    <input type="submit" value="Submit" class="form__submit" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col xs-12 sm-6">
+                            <h2 class="comment-header text-red">Comments</h2>  
+                            <div class="comments">
+                                <div class="comment">
+                                    <p class="comment__author">Username</p>
+                                    <p class="comment__comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus</p>
+                                </div>
+                                <div class="comment">
+                                    <p class="comment__author">Username</p>
+                                    <p class="comment__comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus</p>
+                                </div>
+                                <div class="comment">
+                                    <p class="comment__author">Username</p>
+                                    <p class="comment__comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus</p>
+                                </div>
+                                <div class="comment">
+                                    <p class="comment__author">Username</p>
+                                    <p class="comment__comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus</p>
+                                </div>
+                                <div class="comment">
+                                    <p class="comment__author">Username</p>
+                                    <p class="comment__comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat velit dolor, sed semper felis egestas sit amet. Praesent semper leo at libero ultricies faucibus. Aliquam maximus at tellus vel luctus. Maecenas vel dui ornare, egestas lorem vestibulum, ultricies massa. Nulla eget felis pharetra, suscipit augue non, faucibus lacus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,156 @@
+.text-white {
+  color: #fff;
+}
+
+.text-red {
+  color: #FF3B3B;
+}
+
+.text-wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  box-sizing: border-box;
+}
+
+.col.xs-12 {
+  max-width: 100%;
+  width: 100%;
+}
+
+.col.xs-6 {
+  max-width: 50%;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .col.sm-12 {
+    max-width: 100%;
+    width: 100%;
+  }
+  .col.sm-6 {
+    max-width: 50%;
+    width: 50%;
+  }
+}
+.form {
+  width: 100%;
+}
+.form .form__control {
+  margin-bottom: 15px;
+}
+.form .form__label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.form .form__input {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.form textarea.form__input {
+  resize: none;
+  height: 300px;
+}
+.form .form__submit {
+  background: #FF3B3B;
+  width: 100%;
+  border: 1px solid #FF3B3B;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form .form__submit:hover {
+  background: #d40000;
+  border-color: #d40000;
+}
+
+.navbar {
+  background: #fcba03;
+  height: 50px;
+  padding-inline: 15px;
+}
+.navbar .navbar__header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.comment-header {
+  padding: 0;
+  text-align: center;
+}
+
+.comments {
+  padding: 15px 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.comments .comment {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.comments .comment__author,
+.comments .comment__comment {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+.comments .comment__author {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-header,
+  .comments {
+    padding-inline: 50px;
+  }
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  width: 1200px;
+  padding-inline: 30px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.section-2 {
+  padding-bottom: 100px;
+}

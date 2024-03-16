@@ -1,0 +1,16 @@
+.text-white {
+    color: $white;
+}
+.text-red {
+    color: $red;
+}
+.text-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-center {
+    text-align: center;
+}
